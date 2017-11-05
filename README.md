@@ -1,1 +1,8 @@
 # padangDeal
+
+Setup
+---
+ 
+```
+npm install
+```
