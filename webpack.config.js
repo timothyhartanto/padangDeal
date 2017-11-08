@@ -1,9 +1,9 @@
 const path = require('path');
  
 module.exports = {
-  context: path.join(__dirname, 'routes'),
+  context: path.join(__dirname, 'src/routes'),
   entry: [
-    './index.js',
+    './Index.js',
   ],
   output: {
     path: path.join(__dirname, 'views'),

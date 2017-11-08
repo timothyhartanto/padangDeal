@@ -2,5 +2,10 @@
   "presets": [
     ["latest", { "modules": false }],
     "react"
+  ],
+  "plugins": [
+    ["babel-plugin-module-alias", [
+      { "src": "./semantic", "expose": "semantic" }
+    ]]
   ]
 }

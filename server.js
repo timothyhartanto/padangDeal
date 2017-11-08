@@ -1,3 +1,6 @@
+/**************
+ * requires *
+ **************/
 const express = require('express');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpack = require('webpack');
@@ -16,7 +19,7 @@ app.use(webpackDevMiddleware(compiler, {
   historyApiFallback: true,
 }));
 
-app.use(express.static(__dirname + '/views'));
+app.use(express.static(__dirname + '/src/views'));
 
 const server = app.listen(3000, function() {
   const host = server.address().address;
