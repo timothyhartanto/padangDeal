@@ -5,7 +5,8 @@
   ],
   "plugins": [
     ["babel-plugin-module-alias", [
-      { "src": "./semantic", "expose": "semantic" }
+      { "src": "./semantic", "expose": "semantic" },
+      { "src": "./images", "expose": "images" }
     ]]
   ]
 }
