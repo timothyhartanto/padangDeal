@@ -201,24 +201,23 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 
-.dividerSpace {
-  margin-right: 10px;
-}
-.setCenter {
-  text-align: center;
-  margin: 0 auto;
-}
 .linkColor {
   color: #000000;
 }
 .linkColor:hover {
-  color: #59f6ff;
+  color: #60d6d0;
+}
+.footerLinkColor {
+  color: #b7b7b7;
+}
+.footerLinkColor:hover {
+  color: #60d6d0;
 }
 .text.white {
   color: #FFFFFF;
 }
 .text.grey {
-  color: #767676;
+  color: #efefef;
 }
 .text.black {
   color: #1B1C1D;
@@ -247,9 +246,9 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .text.blue {
   color: #2185D0;
 }
-.footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
+.headerRightMargin {
+  margin-right: 60px;
+}
+.headerLeftMargin {
+  margin-left: 60px;
 }

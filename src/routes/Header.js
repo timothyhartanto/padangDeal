@@ -7,11 +7,9 @@ import {Dropdown, Menu, Icon} from 'semantic-ui-react'
 
 const Header = () => (
     <header>
-        <title>Padang Deal</title>
 
-
-        <div class="ui segment">
-            <div class="ui fixed white menu">
+        <div class="ui menu">
+            <div class="ui container">
                 <Link to='/'>
                     <div class="ui medium header borderless fluid item">
                         <img src={PD}/>PadangDeal
@@ -19,24 +17,24 @@ const Header = () => (
                 </Link>
 
                 <div class="ui item simple borderless">
-                <div class="ui search">
-                    <div class="ui icon input">
-                        <input class="prompt" type="text" placeholder="Cari Promo..."/>
-                        <i class="search icon"></i>
+                    <div class="ui search">
+                        <div class="ui icon input">
+                            <input class="prompt" type="text" placeholder="Cari Promo..."/>
+                            <i class="search icon"></i>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div class="right menu">
                     <div class="ui item simple borderless">
-                       <Link  class="linkColor" to='/itworks'> Cara Kerja</Link>
+                        <Link class="linkColor" to='/itworks'> Cara Kerja</Link>
                     </div>
 
                     <div class="ui item simple dropdown borderless linkColor">
                         <i class="user icon"></i> Masuk/Daftar
                         <i class="dropdown icon"></i>
                         <div class="menu">
-                            <a href="/browse/login" class="item"><i class="sign in icon"></i>Masuk</a>
-                            <a href="/browse/register" class="item"><i class="browser icon"></i>Daftar</a>
+                            <Link to='/' class="item"><i class="sign in icon"></i>Masuk</Link>
+                            <Link to='/' class="item"><i class="browser icon"></i>Daftar</Link>
                         </div>
                     </div>
                 </div>

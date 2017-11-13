@@ -11,9 +11,7 @@ import Footer from './Footer';
 document.addEventListener('DOMContentLoaded', function () {
     ReactDOM.render(
         (<BrowserRouter>
-
                 <Router/>
-
             </BrowserRouter>
         ),
         document.getElementById('index')

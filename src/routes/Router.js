@@ -7,6 +7,7 @@ import Main from './Main';
 
 const Router = () => (
     <main>
+        <title>Padang Deal</title>
         <Switch>
             <Route exact path='/' component={Main}/>
             <Route path='/itworks' component={ItWorks}/>

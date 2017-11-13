@@ -1,21 +1,20 @@
 /*******************************
          Site Overrides
 *******************************/
-.dividerSpace{
-    margin-right:10px;
-}
-
-.setCenter{
-    text-align: center;
-	margin: 0 auto;
-}
-
 .linkColor{
   color: #000000;
 }
 
 .linkColor:hover {
-  color: #59f6ff;
+  color: #60d6d0;
+}
+
+.footerLinkColor{
+  color: #a0a0a0;
+}
+
+.footerLinkColor:hover {
+  color: #60d6d0;
 }
 
 @text-colors: blue, green, orange, pink, purple, red, teal, yellow, black, grey, white;
@@ -25,11 +24,4 @@
         &.@{c} { color: @@c }
         .-((@i - 1));
     }.-;
-}
-
-.footer{
-	position:absolute;
-	left:0;
-	bottom:0;
-right:0;
 }

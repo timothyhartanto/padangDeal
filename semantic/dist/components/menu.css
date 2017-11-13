@@ -1364,8 +1364,8 @@ Floated Menu / Item
 }
 .ui.menu .grey.active.item,
 .ui.grey.menu .active.item {
-  border-color: #767676 !important;
-  color: #767676 !important;
+  border-color: #efefef !important;
+  color: #efefef !important;
 }
 
 /*--------------
@@ -1625,7 +1625,7 @@ Floated Menu / Item
 /* Grey */
 .ui.inverted.menu .grey.active.item,
 .ui.inverted.grey.menu {
-  background-color: #767676;
+  background-color: #efefef;
 }
 .ui.inverted.grey.menu .item:before {
   background-color: rgba(34, 36, 38, 0.1);
