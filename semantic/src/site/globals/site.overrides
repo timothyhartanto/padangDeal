@@ -6,15 +6,15 @@
 }
 
 .linkColor:hover {
-  color: #60d6d0;
+  color: #63cec9;
 }
 
 .footerLinkColor{
-  color: #a0a0a0;
+  color: #8e8e8e;
 }
 
 .footerLinkColor:hover {
-  color: #60d6d0;
+  color: #63cec9;
 }
 
 @text-colors: blue, green, orange, pink, purple, red, teal, yellow, black, grey, white;
@@ -24,4 +24,20 @@
         &.@{c} { color: @@c }
         .-((@i - 1));
     }.-;
+}
+
+.loginMargin{
+	margin: 20px;
+}
+
+.setLoginWidth {
+	width: 270px;
+}
+
+.setSearchWidth{
+	width: 400px;
+}
+
+.boldText{
+	font-weight: bold; 
 }

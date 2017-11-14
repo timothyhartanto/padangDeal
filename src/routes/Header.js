@@ -11,13 +11,13 @@ const Header = () => (
         <div class="ui menu">
             <div class="ui container">
                 <Link to='/'>
-                    <div class="ui medium header borderless fluid item">
+                    <div class="ui medium header borderless item">
                         <img src={PD}/>PadangDeal
                     </div>
                 </Link>
 
-                <div class="ui item simple borderless">
-                    <div class="ui search">
+                <div class="ui item simple borderless setSearchWidth">
+                    <div class="ui search fluid">
                         <div class="ui icon input">
                             <input class="prompt" type="text" placeholder="Cari Promo..."/>
                             <i class="search icon"></i>
@@ -31,12 +31,27 @@ const Header = () => (
 
                     <div class="ui item simple dropdown borderless linkColor">
                         <i class="user icon"></i> Masuk/Daftar
-                        <i class="dropdown icon"></i>
+
                         <div class="menu">
-                            <Link to='/' class="item"><i class="sign in icon"></i>Masuk</Link>
-                            <Link to='/' class="item"><i class="browser icon"></i>Daftar</Link>
+                            <form class="ui loginMargin setLoginWidth form">
+                                <div class="field">
+                                    <label>Email</label>
+                                    <input placeholder="Email" />
+                                </div>
+                                <div class="field">
+                                    <label>Kata Sandi</label>
+                                    <input placeholder="Kata Sandi" />
+                                </div>
+                                <div class="field">
+                                    <Link to='/itworks'>Lupa Kata Sandi ?</Link>
+                                </div>
+                                <button type="submit" class="ui button color olive fluid" role="button">Masuk</button>
+                                <div class="ui horizontal divider">Atau</div>
+                                <button type="submit" class="ui button color inverted olive fluid" role="button"><b>Daftar</b></button>
+                            </form>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

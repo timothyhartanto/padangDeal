@@ -4,4 +4,13 @@
 
 /*---  Colors  ---*/
 @grey: #efefef;
-@lightGreen: #5ee5de;
+@olive: #63cec9;
+@oliveTextColor: #52a8a4;
+@lightOlive       : #63cec9;
+@oliveBackground  : #effafd;
+@oliveHeaderColor  : darken(@oliveTextColor, 5);
+@oliveBorderColor  : @oliveTextColor;
+@oliveHover           : saturate(darken(@olive, 5), 10, relative);
+@lightOliveHover      : saturate(darken(@lightOlive, 5), 10, relative);
+@oliveFocus           : saturate(darken(@olive, 8), 20, relative);
+@lightOliveFocus      : saturate(darken(@lightOlive, 8), 20, relative);

@@ -391,10 +391,10 @@
 
 /* Olive */
 .ui.olive.progress .bar {
-  background-color: #B5CC18;
+  background-color: #63cec9;
 }
 .ui.olive.inverted.progress .bar {
-  background-color: #D9E778;
+  background-color: #63cec9;
 }
 
 /* Green */
@@ -402,7 +402,7 @@
   background-color: #21BA45;
 }
 .ui.green.inverted.progress .bar {
-  background-color: #5ee5de;
+  background-color: #2ECC40;
 }
 
 /* Teal */

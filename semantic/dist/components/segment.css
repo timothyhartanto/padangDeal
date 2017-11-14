@@ -547,10 +547,10 @@
 
 /* Olive */
 .ui.olive.segment:not(.inverted) {
-  border-top: 2px solid #B5CC18 !important;
+  border-top: 2px solid #63cec9 !important;
 }
 .ui.inverted.olive.segment {
-  background-color: #B5CC18 !important;
+  background-color: #63cec9 !important;
   color: #FFFFFF !important;
 }
 

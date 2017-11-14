@@ -391,13 +391,13 @@
   color: #9c6f04;
 }
 .ui.olive.message {
-  background-color: #FBFDEF;
-  color: #8ABC1E;
-  -webkit-box-shadow: 0px 0px 0px 1px #8ABC1E inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #8ABC1E inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  background-color: #effafd;
+  color: #52a8a4;
+  -webkit-box-shadow: 0px 0px 0px 1px #52a8a4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #52a8a4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.olive.message .header {
-  color: #7aa61a;
+  color: #4a9793;
 }
 .ui.green.message {
   background-color: #E5F9E7;

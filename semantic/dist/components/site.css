@@ -205,13 +205,13 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   color: #000000;
 }
 .linkColor:hover {
-  color: #60d6d0;
+  color: #63cec9;
 }
 .footerLinkColor {
-  color: #b7b7b7;
+  color: #8e8e8e;
 }
 .footerLinkColor:hover {
-  color: #60d6d0;
+  color: #63cec9;
 }
 .text.white {
   color: #FFFFFF;
@@ -246,9 +246,15 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 .text.blue {
   color: #2185D0;
 }
-.headerRightMargin {
-  margin-right: 60px;
+.loginMargin {
+  margin: 20px;
 }
-.headerLeftMargin {
-  margin-left: 60px;
+.setLoginWidth {
+  width: 270px;
+}
+.setSearchWidth {
+  width: 400px;
+}
+.boldText {
+  font-weight: bold;
 }
